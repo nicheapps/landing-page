@@ -90,7 +90,7 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: white;
     align-items: center;
 }
 
