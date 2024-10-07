@@ -31,6 +31,7 @@ ul {
 
 a {
     text-decoration: none;
+    color:#e5e7eb
 }
 
 .header-top {
@@ -221,4 +222,8 @@ a {
 
 p {
     margin: 0;
+}
+
+li, button {
+    cursor: pointer;
 }
