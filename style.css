@@ -143,5 +143,57 @@ a {
     align-self: flex-end;
     font-weight: 1000;
     font-size: 24px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.advertisement {
+    display: flex;
+    justify-content: center;
+    padding:100px 0px 100px 0px;
+}
+
+.ad-content {
+    display: flex;
+    align-items: center;
+    gap:132px;
+    background-color: #3882f6;
+    padding: 44px 112px 44px 112px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.ad-text{
+    color: white;
+    font-size: 16px;
+}
+
+#call-to-action {
+    font-weight: 700;
+    margin: 0;
+    font-size:20px;
+}
+
+#click-button {
+    margin: 0;
+    font-weight: 20;
+}
+
+.button-2 button {
+    background-color: #3882f6;;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    padding: 4px 24px 4px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    border-style: solid;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    padding: 16px 0 8px 0;
 }
